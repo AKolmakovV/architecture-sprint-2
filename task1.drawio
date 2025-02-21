@@ -44,7 +44,7 @@
         <mxCell id="Gk_6eb06pri3bGaqDRBQ-5" value="MongoDB&lt;br&gt;shard1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="240" y="662.5" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Gk_6eb06pri3bGaqDRBQ-6" value="MongoDB&lt;br&gt;shard1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Gk_6eb06pri3bGaqDRBQ-6" value="MongoDB&lt;br&gt;shard2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="440" y="662.5" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gk_6eb06pri3bGaqDRBQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gk_6eb06pri3bGaqDRBQ-10" target="Gk_6eb06pri3bGaqDRBQ-12">
@@ -56,7 +56,7 @@
         <mxCell id="Gk_6eb06pri3bGaqDRBQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gk_6eb06pri3bGaqDRBQ-10" target="Gk_6eb06pri3bGaqDRBQ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gk_6eb06pri3bGaqDRBQ-10" value="Роутер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gk_6eb06pri3bGaqDRBQ-10" value="Роутер&lt;div&gt;(mongo_router)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gk_6eb06pri3bGaqDRBQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;endArrow=none;" edge="1" parent="1" source="Gk_6eb06pri3bGaqDRBQ-12" target="Gk_6eb06pri3bGaqDRBQ-6">
@@ -97,7 +97,7 @@
         <mxCell id="rjydJdgvbv0DsqLEPRpR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rjydJdgvbv0DsqLEPRpR-10" target="rjydJdgvbv0DsqLEPRpR-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rjydJdgvbv0DsqLEPRpR-10" value="Роутер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rjydJdgvbv0DsqLEPRpR-10" value="Роутер&lt;div&gt;(mongo_router)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjydJdgvbv0DsqLEPRpR-13" value="Конфигурационный&lt;div&gt;сервис&lt;br&gt;(configSrv)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -148,7 +148,7 @@
         <mxCell id="rjydJdgvbv0DsqLEPRpR-30" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
           <mxGeometry x="66" y="130" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rjydJdgvbv0DsqLEPRpR-31" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
+        <mxCell id="rjydJdgvbv0DsqLEPRpR-31" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
           <mxGeometry x="236" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rjydJdgvbv0DsqLEPRpR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="rjydJdgvbv0DsqLEPRpR-35" source="rjydJdgvbv0DsqLEPRpR-32" target="rjydJdgvbv0DsqLEPRpR-33">
@@ -160,7 +160,7 @@
         <mxCell id="rjydJdgvbv0DsqLEPRpR-32" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Master&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
           <mxGeometry x="609" y="30" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rjydJdgvbv0DsqLEPRpR-33" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
+        <mxCell id="rjydJdgvbv0DsqLEPRpR-33" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
           <mxGeometry x="519" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rjydJdgvbv0DsqLEPRpR-34" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rjydJdgvbv0DsqLEPRpR-35">
@@ -235,7 +235,7 @@
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPjQ2BVqy8hslTEXqYZm-8" target="tPjQ2BVqy8hslTEXqYZm-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tPjQ2BVqy8hslTEXqYZm-8" value="Роутер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tPjQ2BVqy8hslTEXqYZm-8" value="Роутер&lt;div&gt;(mongo_router)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-9" value="Конфигурационный&lt;div&gt;сервис&lt;br&gt;(configSrv)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -286,7 +286,7 @@
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-21" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
           <mxGeometry x="66" y="130" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tPjQ2BVqy8hslTEXqYZm-22" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
+        <mxCell id="tPjQ2BVqy8hslTEXqYZm-22" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
           <mxGeometry x="236" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="tPjQ2BVqy8hslTEXqYZm-10" source="tPjQ2BVqy8hslTEXqYZm-25" target="tPjQ2BVqy8hslTEXqYZm-26">
@@ -298,7 +298,7 @@
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-25" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Master&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
           <mxGeometry x="609" y="30" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tPjQ2BVqy8hslTEXqYZm-26" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
+        <mxCell id="tPjQ2BVqy8hslTEXqYZm-26" value="MongoDB&lt;br&gt;shard1&lt;div&gt;Slave 1&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
           <mxGeometry x="519" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tPjQ2BVqy8hslTEXqYZm-27" value="MongoDB&lt;br&gt;shard2&lt;div&gt;Slave 2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="tPjQ2BVqy8hslTEXqYZm-10">
