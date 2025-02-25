@@ -1,3 +1,17 @@
+# Задание №1
+./architecture-sprint-2/mongo-sharding
+
+# Задание №2
+./architecture-sprint-2/mongo-sharding-repl
+
+# Задание №3
+./architecture-sprint-2/sharding-repl-cache
+
+# Схема и описание по заданиям 1, 2, 3, 4, 5, 6 (на странице "Итоговая схема" результат всей работы)
+./task1.drawio
+
+Для проверки итогового задания, перейдите в каталог ./architecture-sprint-2/ и следуйте инструкции из файла README.md
+
 # pymongo-api
 
 ## Как запустить
